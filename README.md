@@ -1,0 +1,14 @@
+# An Endpoint Example With FastAPI
+
+Just to show an example of backend code with endpoints, this mini project uses FastAPI for setting up a server on the default localhost port 8000.
+
+## The libraries
+* FastAPI
+* Pydantic
+
+### FastAPI
+FastAPI is the heart of this project.  It's very fast, and with recent updates to Python, it competes with other frameworks like Node.js, Django's RestFramework, and Flask.
+
+### Pydantic
+For creating models of data, Pydantic is used for validation and parsing of payloads.
+
