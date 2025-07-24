@@ -18,3 +18,5 @@ For entering menu items, `POST` a new item at http://localhost:8000/docs/ and th
 
 NOTE: Whereever the **menu_items** dictionary is referenced, normally there would be a repository call using something like SQLAlchemy.
 
+## Client Side
+**simple_client.py** can be executed while server is running or debugging to see a simple `POST` and `GET` request.
