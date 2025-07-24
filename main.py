@@ -4,6 +4,7 @@ from models import ItemBody
 app = FastAPI()
 menu_items: dict[int, ItemBody] = {}
 
+
 # POST new item
 @app.post("/items/{item_name}/{item_price}/{item_description}")
 def add_item(item_name: str, item_price: float, item_description: str):
