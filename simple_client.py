@@ -1,3 +1,4 @@
+# Simple POST and GET check while server is running/debugging
 from requests import get, post
 
 #headers = {}
